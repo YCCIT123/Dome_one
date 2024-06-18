@@ -84,8 +84,6 @@ class UpdatePasswordViewController: UIViewController {
     
     func TryDelegate(){
         delegate?.updatePassword(title: updateTextField.text)
-        
-        
         ShowBoolAlert()
     }
     

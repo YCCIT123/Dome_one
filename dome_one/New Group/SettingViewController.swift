@@ -37,7 +37,7 @@ class SettingViewController:
         tableView.delegate = self
         tableView.dataSource = self
         
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         
         view.addSubview(tableView)
 
@@ -148,8 +148,7 @@ class SettingViewController:
 //                cell.detailTextLabel?.text = text
 //            }
 //            return cell
-            
-            
+                        
             let myCell = MyFirstCell(style: .default, reuseIdentifier: "MyFirstCell")
             myCell.switchActionCallback = {[weak self] (isOn) in
                 self?.sectionOne[indexPath.row].switchData = isOn;

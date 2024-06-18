@@ -7,61 +7,58 @@
 
 import UIKit
 
-class FirstViewController: 
-    UIViewController, UITableViewDataSource, UITableViewDelegate {
+//protocol CellDataDelegate: AnyObject{
+//    func cellData(orderData: OrderModel)
+//}
+ 
+class FirstViewController:
+    UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-    // 模拟的消息数据
-    let messages = [
-        "Hello!", "How are you?", "I'm fine, thank you!",
-        "What about you?","I'm good too"
-        ,"Hello!", "How are you?", "I'm fine, thank you!",
-        "What about you?","I'm good too"
-        ,"Hello!", "How are you?", "I'm fine, thank you!",
-        "What about you?","I'm good too"
-        ,"Hello!", "How are you?", "I'm fine, thank you!",
-        "What about you?","I'm good too"
-        ,"Hello!", "How are you?", "I'm fine, thank you!",
-        "What about you?","I'm good too"
-        ,"Hello!", "How are you?", "I'm fine, thank you!",
-        "What about you?","I'm good too"
-        ,"Hello!", "How are you?", "I'm fine, thank you!",
-        "What about you?","I'm good too"
-    ]
-    
-    // 表格视图
-    var tableView: UITableView!
-    
-    override func viewDidLoad() {
-        
-        //        view.backgroundColor = .brown
-        
-        navigationItem.title = "信息"
-        
-        super.viewDidLoad()
-        // 设置表格视图
-        tableView = UITableView(frame: view.bounds, style: .plain)
-        tableView.dataSource = self
-        tableView.delegate = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-        view.addSubview(tableView)
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
-    
-    // MARK: - Table view data source
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return messages.count
+        return 2
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell { //重复使用Cell
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = messages[indexPath.row]
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = OrderCell(style: .subtitle, reuseIdentifier: "OrderCell")
+        let orderModel = dataGroup[indexPath.row] // Assuming dataGroup is your array of OrderModel instances
+        cell.orderModel = orderModel
         return cell
     }
     
-    // MARK: - Table view delegate
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 300
+    }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    let dataGroupOne = OrderModel(storeNameLabel: "one", orderStateLabel: "one",
+                                  orderTitleLabel: "one", orderMessagesLabel: "one", orderImage: UIImage(named: "OrderImageOne"))
+    let dataGroupTwo = OrderModel(storeNameLabel: "two", orderStateLabel: "two",
+                                  orderTitleLabel: "two", orderMessagesLabel: "two", orderImage: UIImage(named: "OrderImageTwo"))
+    
+    lazy var dataGroup:[OrderModel] = [dataGroupOne,dataGroupTwo]
+    
+    var tableView: UITableView!
+    
+//    weak var dataDelegate: CellDataDelegate?
+    
+    override func viewDidLoad() {
+        
+        let tableView = UITableView(frame: view.bounds,style: .plain)
+        
+        super.viewDidLoad()
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        view.addSubview(tableView)
+        
     }
     
 }
