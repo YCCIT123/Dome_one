@@ -12,6 +12,8 @@ class ToolViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "label高度"
+        
         // 创建一个 UILabel
         let label = UILabel()
         label.numberOfLines = 0 // 设置为多行，以便能够显示所有文本内容
