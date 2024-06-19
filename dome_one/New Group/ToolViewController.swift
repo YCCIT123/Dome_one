@@ -25,7 +25,8 @@ class ToolViewController: UIViewController {
         let maxHeight: CGFloat = 1000 // 设置一个较大的高度作为最大高度限制
         let textHeight = heightForText(label.text ?? "", font: label.font, maxWidth: view.bounds.width - 40, maxHeight: maxHeight)
         
-        label.frame = CGRect(x: 10, y: 100, width: view.bounds.width - 40, height: textHeight)
+        label.frame = CGRect(x: 0, y: 0, width: view.bounds.width - 40, height: textHeight)
+        label.center = view.center
         label.backgroundColor = .red
     }
     
