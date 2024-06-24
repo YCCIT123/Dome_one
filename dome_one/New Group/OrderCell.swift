@@ -9,12 +9,13 @@ import UIKit
 import SnapKit
 
 class OrderCell: UITableViewCell{
+    var orderModel: OrderModel?
 
-    var orderModel: OrderModel? {
-        didSet {
-            configureUI()
-        }
-    }
+//    var orderModel: OrderModel? {
+//        didSet {
+//            configureUI()
+//        }
+//    }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -59,7 +60,8 @@ class OrderCell: UITableViewCell{
         
         leftMoreButton.setTitle("更多", for: .normal)
         leftMoreButton.setTitleColor(.gray, for: .normal)
-        leftMoreButton.addTarget(self, action: #selector(PTM), for: .touchUpInside)
+        
+        leftMoreButton.addTarget(self, action: #selector(PTM(sender:)), for: .touchUpInside)
         
         rightEvaluateButton.setTitle("评价", for: .normal)
         rightEvaluateButton.backgroundColor = .orange
@@ -77,10 +79,10 @@ class OrderCell: UITableViewCell{
     
     private func setupUIConstrains() {
         
-        storeNameLabel.snp.makeConstraints { make in
-            make.top.equalTo(20)
-            make.left.equalToSuperview().offset(30)
-        }
+//        storeNameLabel.snp.makeConstraints { make in
+//            make.top.equalTo(20)
+//            make.left.equalToSuperview().offset(30)
+//        }
         
         orderStateLabel.snp.makeConstraints { make in
             make.top.equalTo(20)
@@ -109,6 +111,7 @@ class OrderCell: UITableViewCell{
         leftMoreButton.snp.makeConstraints { make in
             make.top.equalTo(orderImage.snp.bottom).offset(20)
             make.left.equalToSuperview().offset(30)
+            make.bottom.equalToSuperview().offset(-30)
         }
         
         rightEvaluateButton.snp.makeConstraints { make in
@@ -126,18 +129,29 @@ class OrderCell: UITableViewCell{
         }
     }
     
-    func configureUI() {
+    
+    //cell赋值方法
+    func configureUI(orderModel:OrderModel?) {
+        self.orderModel = orderModel
         
         guard let orderModel = orderModel else { return }
+        
+        let maxWidth = self.contentView.frame.size.width - 30 - 150;
+        let storeNameLabelW = StringTool.widthForText(orderModel.storeNameLabel , font: storeNameLabel.font, maxWidth: maxWidth, maxHeight: 10000);
+        let storeNameLabelH =  StringTool.heightForText(orderModel.storeNameLabel , font: storeNameLabel.font, maxWidth: maxWidth, maxHeight: 10000);
+        storeNameLabel.frame = .init(x: 30, y: 20, width: storeNameLabelW, height: storeNameLabelH);
+        
+        
         storeNameLabel.text = orderModel.storeNameLabel
         orderStateLabel.text = orderModel.orderStateLabel
         orderTitleLabel.text = orderModel.orderTitleLabel
         orderMessagesLabel.text = orderModel.orderMessagesLabel
         orderImage.image = orderModel.orderImage
         
+
     }
     
-    @objc func PTM(){
+    @objc func PTM(sender:UIButton){
         print("点击成功")
         if orderStateLabel.text == "交易成功" {
             orderModel?.orderStateLabel = "交易失败"

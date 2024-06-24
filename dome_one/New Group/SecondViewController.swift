@@ -110,6 +110,14 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
         let toolViewController = ToolViewController()
         toolViewController.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(toolViewController, animated: false)
+//        let viewController = ViewController()
+//        navigationController?.pushViewController(viewController, animated: false)
+    }
+    
+    //视图将要出现调用
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("4")
     }
     
 }

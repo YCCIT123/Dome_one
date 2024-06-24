@@ -12,8 +12,9 @@ class OrderModel: NSObject {
     var orderStateLabel:String = ""
     var orderTitleLabel:String = ""
     var orderMessagesLabel:String = ""
-    
     var orderImage: UIImage?
+    
+    
     
     init(storeNameLabel: String, orderStateLabel: String, orderTitleLabel: String, orderMessagesLabel: String, orderImage: UIImage? = nil) {
         self.storeNameLabel = storeNameLabel

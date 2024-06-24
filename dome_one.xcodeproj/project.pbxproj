@@ -23,6 +23,8 @@
 		C67305C92C119BB90002B93B /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67305C82C119BB90002B93B /* FourViewController.swift */; };
 		C6798BF72C1987E70089FB0F /* UpdatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6798BF62C1987E70089FB0F /* UpdatePasswordViewController.swift */; };
 		C6889C7F2C1A8AF600381A6F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6889C7E2C1A8AF600381A6F /* SettingViewController.swift */; };
+		C691E6162C22D5EF00BA4C1F /* StringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691E6152C22D5EF00BA4C1F /* StringTool.swift */; };
+		C6A2BE482C23D08D00786CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2BE472C23D08D00786CFC /* ViewController.swift */; };
 		C6B435542C18434200853D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B435532C18434200853D1B /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		C67305C82C119BB90002B93B /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 		C6798BF62C1987E70089FB0F /* UpdatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePasswordViewController.swift; sourceTree = "<group>"; };
 		C6889C7E2C1A8AF600381A6F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		C691E6152C22D5EF00BA4C1F /* StringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
+		C6A2BE472C23D08D00786CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6B435532C18434200853D1B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				C67305C22C119AB40002B93B /* FirstViewController.swift */,
+				C6A2BE472C23D08D00786CFC /* ViewController.swift */,
 				C608C79B2C21272100DF7C0B /* OrderCell.swift */,
 				C608C79D2C2153ED00DF7C0B /* OrderModel.swift */,
 				C67305C42C119B8E0002B93B /* SecondViewController.swift */,
@@ -176,6 +181,7 @@
 				C44649D42C202E0700256E21 /* MyFirstModel.swift */,
 				C44649D22C20290900256E21 /* MyFirstCell.swift */,
 				C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */,
+				C691E6152C22D5EF00BA4C1F /* StringTool.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -354,8 +360,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C67305C92C119BB90002B93B /* FourViewController.swift in Sources */,
+				C691E6162C22D5EF00BA4C1F /* StringTool.swift in Sources */,
 				C67305C52C119B8E0002B93B /* SecondViewController.swift in Sources */,
 				C608C79C2C21272100DF7C0B /* OrderCell.swift in Sources */,
+				C6A2BE482C23D08D00786CFC /* ViewController.swift in Sources */,
 				C44649D52C202E0700256E21 /* MyFirstModel.swift in Sources */,
 				C608C7A02C217BCC00DF7C0B /* ToolViewController.swift in Sources */,
 				C44649D32C20290900256E21 /* MyFirstCell.swift in Sources */,

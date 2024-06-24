@@ -42,10 +42,29 @@ class FirstViewController:
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = OrderCell(style: .subtitle, reuseIdentifier: "OrderCell")
-        let orderModel = dataGroup[indexPath.section] // Assuming dataGroup is your array of OrderModel instances
-        cell.orderModel = orderModel
-        return cell
+        
+        if indexPath.section == 0 {
+            var cell = tableView.dequeueReusableCell(withIdentifier: "OrderCell", for: indexPath) as? OrderCell
+            if cell == nil {
+                 cell = OrderCell(style: .subtitle, reuseIdentifier: "OrderCell")
+            }
+            let orderModel = dataGroup[indexPath.section] // Assuming dataGroup is your array of OrderModel instances
+    //        cell.orderModel = orderModel
+            cell?.configureUI(orderModel: orderModel)
+            return cell!
+        }else{
+            
+            var cell = tableView.dequeueReusableCell(withIdentifier: "OrderCell", for: indexPath) as? OrderCell
+            if cell == nil {
+                 cell = OrderCell(style: .subtitle, reuseIdentifier: "OrderCell")
+            }
+            let orderModel = dataGroup[indexPath.section] // Assuming dataGroup is your array of OrderModel instances
+    //        cell.orderModel = orderModel
+            cell?.configureUI(orderModel: orderModel)
+            return cell!
+            
+        }
+       
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -54,7 +73,10 @@ class FirstViewController:
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        print("Yes!")
+        enum a: String{
+            case b,c,d
+        }
+        print(a.b.rawValue)
     }
     
     let dataGroupOne = OrderModel(storeNameLabel: "商家one", orderStateLabel: "交易成功",
@@ -94,9 +116,11 @@ class FirstViewController:
         
         tableView.delegate = self
         tableView.dataSource = self
+//        tableView.estimatedRowHeight = 100
+//        tableView.rowHeight = UITableView.automaticDimension
         
         tableView.showsVerticalScrollIndicator = false
-        
+        tableView.register(OrderCell.self, forCellReuseIdentifier: "OrderCell")
         view.addSubview(tableView)
         
         tableView.snp.makeConstraints { make in
