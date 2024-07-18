@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import Foundation
 
 class OrderCell: UITableViewCell{
     var orderModel: OrderModel?
