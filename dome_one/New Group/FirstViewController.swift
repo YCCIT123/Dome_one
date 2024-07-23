@@ -119,7 +119,7 @@ class FirstViewController:
 //        tableView.estimatedRowHeight = 100
 //        tableView.rowHeight = UITableView.automaticDimension
         
-        tableView.showsVerticalScrollIndicator = false
+        tableView.showsVerticalScrollIndicator = false//右边的滚动条显示与否
         tableView.register(OrderCell.self, forCellReuseIdentifier: "OrderCell")
         view.addSubview(tableView)
         
