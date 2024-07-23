@@ -13,12 +13,6 @@
 		C608C79C2C21272100DF7C0B /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79B2C21272100DF7C0B /* OrderCell.swift */; };
 		C608C79E2C2153ED00DF7C0B /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79D2C2153ED00DF7C0B /* OrderModel.swift */; };
 		C608C7A02C217BCC00DF7C0B /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */; };
-		C656633E2C492031005796E2 /* CeShiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656633D2C492031005796E2 /* CeShiView.swift */; };
-		C65663402C492041005796E2 /* CeShiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656633F2C492041005796E2 /* CeShiViewModel.swift */; };
-		C65663422C49204D005796E2 /* CeShiCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65663412C49204D005796E2 /* CeShiCellModel.swift */; };
-		C65663442C492055005796E2 /* CeShiSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65663432C492054005796E2 /* CeShiSectionItem.swift */; };
-		C65663462C49205E005796E2 /* CeShiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65663452C49205E005796E2 /* CeShiCell.swift */; };
-		C65663482C492064005796E2 /* CeShiButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65663472C492064005796E2 /* CeShiButtonModel.swift */; };
 		C67305922C1175B60002B93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67305912C1175B60002B93B /* Assets.xcassets */; };
 		C67305A02C1175B60002B93B /* dome_oneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C673059F2C1175B60002B93B /* dome_oneTests.swift */; };
 		C67305AA2C1175B60002B93B /* dome_oneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67305A92C1175B60002B93B /* dome_oneUITests.swift */; };
@@ -32,6 +26,12 @@
 		C691E6162C22D5EF00BA4C1F /* StringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691E6152C22D5EF00BA4C1F /* StringTool.swift */; };
 		C6A2BE482C23D08D00786CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2BE472C23D08D00786CFC /* ViewController.swift */; };
 		C6B435542C18434200853D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B435532C18434200853D1B /* AppDelegate.swift */; };
+		C6D2C7DE2C4F8262008EE01A /* CeShiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7DD2C4F8262008EE01A /* CeShiView.swift */; };
+		C6D2C7E02C4F828A008EE01A /* CeShiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7DF2C4F828A008EE01A /* CeShiViewModel.swift */; };
+		C6D2C7E22C4F82BE008EE01A /* CeShiSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7E12C4F82BE008EE01A /* CeShiSectionItem.swift */; };
+		C6D2C7E42C4F82FD008EE01A /* CeShiCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7E32C4F82FD008EE01A /* CeShiCellModel.swift */; };
+		C6D2C7E62C4F833F008EE01A /* CeShiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7E52C4F833F008EE01A /* CeShiCell.swift */; };
+		C6D2C7E82C4F836F008EE01A /* CeShiButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7E72C4F836F008EE01A /* CeShiButtonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +60,6 @@
 		C608C79B2C21272100DF7C0B /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 		C608C79D2C2153ED00DF7C0B /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
-		C656633D2C492031005796E2 /* CeShiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CeShiView.swift; path = ../../../../ehi/1haiiPhone/Classes/SelfDriving/Step1/newStepOne/controller/universal/CeShiView.swift; sourceTree = "<group>"; };
-		C656633F2C492041005796E2 /* CeShiViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CeShiViewModel.swift; path = ../../../../ehi/1haiiPhone/Classes/SelfDriving/StepOne/viewModel/CeShiViewModel.swift; sourceTree = "<group>"; };
-		C65663412C49204D005796E2 /* CeShiCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CeShiCellModel.swift; path = ../../../../ehi/1haiiPhone/Classes/SelfDriving/StepOne/cellModel/CeShiCellModel.swift; sourceTree = "<group>"; };
-		C65663432C492054005796E2 /* CeShiSectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CeShiSectionItem.swift; path = ../../../../ehi/1haiiPhone/Classes/SelfDriving/StepOne/sectionItem/CeShiSectionItem.swift; sourceTree = "<group>"; };
-		C65663452C49205E005796E2 /* CeShiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CeShiCell.swift; path = ../../../../ehi/1haiiPhone/Classes/SelfDriving/StepOne/cell/CeShiCell.swift; sourceTree = "<group>"; };
-		C65663472C492064005796E2 /* CeShiButtonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CeShiButtonModel.swift; path = ../../../../ehi/1haiiPhone/Classes/SelfDriving/StepOne/model/CeShiButtonModel.swift; sourceTree = "<group>"; };
 		C67305852C1175B50002B93B /* dome_one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dome_one.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67305912C1175B60002B93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C67305962C1175B60002B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +77,12 @@
 		C691E6152C22D5EF00BA4C1F /* StringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
 		C6A2BE472C23D08D00786CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6B435532C18434200853D1B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6D2C7DD2C4F8262008EE01A /* CeShiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiView.swift; sourceTree = "<group>"; };
+		C6D2C7DF2C4F828A008EE01A /* CeShiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiViewModel.swift; sourceTree = "<group>"; };
+		C6D2C7E12C4F82BE008EE01A /* CeShiSectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiSectionItem.swift; sourceTree = "<group>"; };
+		C6D2C7E32C4F82FD008EE01A /* CeShiCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiCellModel.swift; sourceTree = "<group>"; };
+		C6D2C7E52C4F833F008EE01A /* CeShiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiCell.swift; sourceTree = "<group>"; };
+		C6D2C7E72C4F836F008EE01A /* CeShiButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiButtonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,67 +128,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C65663352C491F21005796E2 /* Group2 */ = {
-			isa = PBXGroup;
-			children = (
-				C656633C2C492008005796E2 /* model */,
-				C656633B2C492001005796E2 /* cell */,
-				C656633A2C491FF3005796E2 /* cellModel */,
-				C65663392C491FE7005796E2 /* section */,
-				C65663382C491FD5005796E2 /* viewModel */,
-				C65663372C491FAD005796E2 /* controller */,
-			);
-			path = Group2;
-			sourceTree = "<group>";
-		};
-		C65663372C491FAD005796E2 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				C656633D2C492031005796E2 /* CeShiView.swift */,
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		C65663382C491FD5005796E2 /* viewModel */ = {
-			isa = PBXGroup;
-			children = (
-				C656633F2C492041005796E2 /* CeShiViewModel.swift */,
-			);
-			path = viewModel;
-			sourceTree = "<group>";
-		};
-		C65663392C491FE7005796E2 /* section */ = {
-			isa = PBXGroup;
-			children = (
-				C65663432C492054005796E2 /* CeShiSectionItem.swift */,
-			);
-			path = section;
-			sourceTree = "<group>";
-		};
-		C656633A2C491FF3005796E2 /* cellModel */ = {
-			isa = PBXGroup;
-			children = (
-				C65663412C49204D005796E2 /* CeShiCellModel.swift */,
-			);
-			path = cellModel;
-			sourceTree = "<group>";
-		};
-		C656633B2C492001005796E2 /* cell */ = {
-			isa = PBXGroup;
-			children = (
-				C65663452C49205E005796E2 /* CeShiCell.swift */,
-			);
-			path = cell;
-			sourceTree = "<group>";
-		};
-		C656633C2C492008005796E2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				C65663472C492064005796E2 /* CeShiButtonModel.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		C673057C2C1175B40002B93B = {
 			isa = PBXGroup;
 			children = (
@@ -214,7 +153,6 @@
 		C67305872C1175B50002B93B /* dome_one */ = {
 			isa = PBXGroup;
 			children = (
-				C65663352C491F21005796E2 /* Group2 */,
 				C6B435532C18434200853D1B /* AppDelegate.swift */,
 				C67305BF2C1196870002B93B /* New Group */,
 				C67305912C1175B60002B93B /* Assets.xcassets */,
@@ -243,6 +181,7 @@
 		C67305BF2C1196870002B93B /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				C6D2C7C42C4E3D2D008EE01A /* NextGroup */,
 				C67305C22C119AB40002B93B /* FirstViewController.swift */,
 				C6A2BE472C23D08D00786CFC /* ViewController.swift */,
 				C608C79B2C21272100DF7C0B /* OrderCell.swift */,
@@ -258,6 +197,19 @@
 				C691E6152C22D5EF00BA4C1F /* StringTool.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C6D2C7C42C4E3D2D008EE01A /* NextGroup */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2C7DD2C4F8262008EE01A /* CeShiView.swift */,
+				C6D2C7DF2C4F828A008EE01A /* CeShiViewModel.swift */,
+				C6D2C7E12C4F82BE008EE01A /* CeShiSectionItem.swift */,
+				C6D2C7E32C4F82FD008EE01A /* CeShiCellModel.swift */,
+				C6D2C7E52C4F833F008EE01A /* CeShiCell.swift */,
+				C6D2C7E72C4F836F008EE01A /* CeShiButtonModel.swift */,
+			);
+			path = NextGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,22 +388,22 @@
 				C67305C92C119BB90002B93B /* FourViewController.swift in Sources */,
 				C691E6162C22D5EF00BA4C1F /* StringTool.swift in Sources */,
 				C67305C52C119B8E0002B93B /* SecondViewController.swift in Sources */,
-				C65663442C492055005796E2 /* CeShiSectionItem.swift in Sources */,
 				C608C79C2C21272100DF7C0B /* OrderCell.swift in Sources */,
 				C6A2BE482C23D08D00786CFC /* ViewController.swift in Sources */,
 				C44649D52C202E0700256E21 /* MyFirstModel.swift in Sources */,
 				C608C7A02C217BCC00DF7C0B /* ToolViewController.swift in Sources */,
-				C65663402C492041005796E2 /* CeShiViewModel.swift in Sources */,
+				C6D2C7E02C4F828A008EE01A /* CeShiViewModel.swift in Sources */,
+				C6D2C7E22C4F82BE008EE01A /* CeShiSectionItem.swift in Sources */,
 				C44649D32C20290900256E21 /* MyFirstCell.swift in Sources */,
-				C65663482C492064005796E2 /* CeShiButtonModel.swift in Sources */,
-				C65663462C49205E005796E2 /* CeShiCell.swift in Sources */,
+				C6D2C7E82C4F836F008EE01A /* CeShiButtonModel.swift in Sources */,
+				C6D2C7E62C4F833F008EE01A /* CeShiCell.swift in Sources */,
 				C6798BF72C1987E70089FB0F /* UpdatePasswordViewController.swift in Sources */,
-				C65663422C49204D005796E2 /* CeShiCellModel.swift in Sources */,
 				C6B435542C18434200853D1B /* AppDelegate.swift in Sources */,
+				C6D2C7E42C4F82FD008EE01A /* CeShiCellModel.swift in Sources */,
 				C67305C72C119BAA0002B93B /* ThirdViewController.swift in Sources */,
 				C6889C7F2C1A8AF600381A6F /* SettingViewController.swift in Sources */,
 				C608C79E2C2153ED00DF7C0B /* OrderModel.swift in Sources */,
-				C656633E2C492031005796E2 /* CeShiView.swift in Sources */,
+				C6D2C7DE2C4F8262008EE01A /* CeShiView.swift in Sources */,
 				C67305C32C119AB40002B93B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
