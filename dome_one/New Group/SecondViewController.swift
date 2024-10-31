@@ -107,9 +107,16 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
 //        let settingViewController = SettingViewController()
 //        settingViewController.hidesBottomBarWhenPushed = true
 //        navigationController?.pushViewController(settingViewController, animated: false)
-        let toolViewController = ToolViewController()
-        toolViewController.hidesBottomBarWhenPushed = true
-        navigationController?.pushViewController(toolViewController, animated: false)
+        
+        
+//        let toolViewController = ToolViewController()
+//        toolViewController.hidesBottomBarWhenPushed = true
+//        navigationController?.pushViewController(toolViewController, animated: false)
+    
+        let animationController = animationController()
+        animationController.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(animationController, animated: false)
+        
 //        let viewController = ViewController()
 //        navigationController?.pushViewController(viewController, animated: false)
     }
