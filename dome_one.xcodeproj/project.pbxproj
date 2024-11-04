@@ -13,14 +13,7 @@
 		C608C79C2C21272100DF7C0B /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79B2C21272100DF7C0B /* OrderCell.swift */; };
 		C608C79E2C2153ED00DF7C0B /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79D2C2153ED00DF7C0B /* OrderModel.swift */; };
 		C608C7A02C217BCC00DF7C0B /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */; };
-		C642EE8F2C661E6B008B70DD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642EE8E2C661E6A008B70DD /* WidgetKit.framework */; };
-		C642EE912C661E6B008B70DD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642EE902C661E6B008B70DD /* SwiftUI.framework */; };
-		C642EE942C661E6B008B70DD /* LdDBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642EE932C661E6B008B70DD /* LdDBundle.swift */; };
-		C642EE962C661E6B008B70DD /* LdDLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642EE952C661E6B008B70DD /* LdDLiveActivity.swift */; };
-		C642EE982C661E6B008B70DD /* LdD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642EE972C661E6B008B70DD /* LdD.swift */; };
-		C642EE9A2C661E6C008B70DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C642EE992C661E6C008B70DD /* Assets.xcassets */; };
-		C642EE9E2C661E6C008B70DD /* LdDExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C642EE8D2C661E6A008B70DD /* LdDExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C642EEA32C661F30008B70DD /* LdDLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642EE952C661E6B008B70DD /* LdDLiveActivity.swift */; };
+		C65DECCA2CD86D1000E214EB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65DECC92CD86D1000E214EB /* BinaryTree.swift */; };
 		C67305922C1175B60002B93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67305912C1175B60002B93B /* Assets.xcassets */; };
 		C67305C32C119AB40002B93B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67305C22C119AB40002B93B /* FirstViewController.swift */; };
 		C67305C52C119B8E0002B93B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67305C42C119B8E0002B93B /* SecondViewController.swift */; };
@@ -31,6 +24,7 @@
 		C691E6162C22D5EF00BA4C1F /* StringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691E6152C22D5EF00BA4C1F /* StringTool.swift */; };
 		C6A2BE482C23D08D00786CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2BE472C23D08D00786CFC /* ViewController.swift */; };
 		C6B435542C18434200853D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B435532C18434200853D1B /* AppDelegate.swift */; };
+		C6C57AD22CD238860090EE57 /* animationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C57AD12CD238860090EE57 /* animationController.swift */; };
 		C6D2C7DE2C4F8262008EE01A /* CeShiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7DD2C4F8262008EE01A /* CeShiView.swift */; };
 		C6D2C7E02C4F828A008EE01A /* CeShiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7DF2C4F828A008EE01A /* CeShiViewModel.swift */; };
 		C6D2C7E22C4F82BE008EE01A /* CeShiSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7E12C4F82BE008EE01A /* CeShiSectionItem.swift */; };
@@ -40,13 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C642EE9C2C661E6C008B70DD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C673057D2C1175B40002B93B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C642EE8C2C661E6A008B70DD;
-			remoteInfo = LdDExtension;
-		};
 		C673059C2C1175B60002B93B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C673057D2C1175B40002B93B /* Project object */;
@@ -70,7 +57,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C642EE9E2C661E6C008B70DD /* LdDExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,14 +72,9 @@
 		C608C79B2C21272100DF7C0B /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 		C608C79D2C2153ED00DF7C0B /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
-		C642EE8D2C661E6A008B70DD /* LdDExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LdDExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C642EE8E2C661E6A008B70DD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		C642EE902C661E6B008B70DD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		C642EE932C661E6B008B70DD /* LdDBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LdDBundle.swift; sourceTree = "<group>"; };
-		C642EE952C661E6B008B70DD /* LdDLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LdDLiveActivity.swift; sourceTree = "<group>"; };
-		C642EE972C661E6B008B70DD /* LdD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LdD.swift; sourceTree = "<group>"; };
-		C642EE992C661E6C008B70DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C642EE9B2C661E6C008B70DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65DECC92CD86D1000E214EB /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		C67305852C1175B50002B93B /* dome_one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dome_one.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67305912C1175B60002B93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C67305962C1175B60002B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +89,7 @@
 		C691E6152C22D5EF00BA4C1F /* StringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
 		C6A2BE472C23D08D00786CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6B435532C18434200853D1B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6C57AD12CD238860090EE57 /* animationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationController.swift; sourceTree = "<group>"; };
 		C6D2C7DD2C4F8262008EE01A /* CeShiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiView.swift; sourceTree = "<group>"; };
 		C6D2C7DF2C4F828A008EE01A /* CeShiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiViewModel.swift; sourceTree = "<group>"; };
 		C6D2C7E12C4F82BE008EE01A /* CeShiSectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiSectionItem.swift; sourceTree = "<group>"; };
@@ -117,15 +99,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C642EE8A2C661E6A008B70DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C642EE912C661E6B008B70DD /* SwiftUI.framework in Frameworks */,
-				C642EE8F2C661E6B008B70DD /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C67305822C1175B50002B93B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,23 +143,10 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C642EE922C661E6B008B70DD /* LdD */ = {
-			isa = PBXGroup;
-			children = (
-				C642EE932C661E6B008B70DD /* LdDBundle.swift */,
-				C642EE952C661E6B008B70DD /* LdDLiveActivity.swift */,
-				C642EE972C661E6B008B70DD /* LdD.swift */,
-				C642EE992C661E6C008B70DD /* Assets.xcassets */,
-				C642EE9B2C661E6C008B70DD /* Info.plist */,
-			);
-			path = LdD;
-			sourceTree = "<group>";
-		};
 		C673057C2C1175B40002B93B = {
 			isa = PBXGroup;
 			children = (
 				C67305872C1175B50002B93B /* dome_one */,
-				C642EE922C661E6B008B70DD /* LdD */,
 				C67305862C1175B50002B93B /* Products */,
 				7355D1A07D0C1BDAE3817366 /* Pods */,
 				098F11AE59B7A1280F3D0FFC /* Frameworks */,
@@ -199,7 +159,6 @@
 				C67305852C1175B50002B93B /* dome_one.app */,
 				C673059B2C1175B60002B93B /* dome_oneTests.xctest */,
 				C67305A52C1175B60002B93B /* dome_oneUITests.xctest */,
-				C642EE8D2C661E6A008B70DD /* LdDExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,6 +189,8 @@
 				C6889C7E2C1A8AF600381A6F /* SettingViewController.swift */,
 				C44649D42C202E0700256E21 /* MyFirstModel.swift */,
 				C44649D22C20290900256E21 /* MyFirstCell.swift */,
+				C6C57AD12CD238860090EE57 /* animationController.swift */,
+				C65DECC92CD86D1000E214EB /* BinaryTree.swift */,
 				C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */,
 				C691E6152C22D5EF00BA4C1F /* StringTool.swift */,
 			);
@@ -252,23 +213,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C642EE8C2C661E6A008B70DD /* LdDExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C642EEA22C661E6C008B70DD /* Build configuration list for PBXNativeTarget "LdDExtension" */;
-			buildPhases = (
-				C642EE892C661E6A008B70DD /* Sources */,
-				C642EE8A2C661E6A008B70DD /* Frameworks */,
-				C642EE8B2C661E6A008B70DD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LdDExtension;
-			productName = LdDExtension;
-			productReference = C642EE8D2C661E6A008B70DD /* LdDExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		C67305842C1175B50002B93B /* dome_one */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C67305AF2C1175B60002B93B /* Build configuration list for PBXNativeTarget "dome_one" */;
@@ -283,7 +227,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				C642EE9D2C661E6C008B70DD /* PBXTargetDependency */,
 			);
 			name = dome_one;
 			productName = dome_one;
@@ -336,9 +279,6 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					C642EE8C2C661E6A008B70DD = {
-						CreatedOnToolsVersion = 15.3;
-					};
 					C67305842C1175B50002B93B = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -368,20 +308,11 @@
 				C67305842C1175B50002B93B /* dome_one */,
 				C673059A2C1175B60002B93B /* dome_oneTests */,
 				C67305A42C1175B60002B93B /* dome_oneUITests */,
-				C642EE8C2C661E6A008B70DD /* LdDExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C642EE8B2C661E6A008B70DD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C642EE9A2C661E6C008B70DD /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C67305832C1175B50002B93B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,16 +380,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C642EE892C661E6A008B70DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C642EE982C661E6B008B70DD /* LdD.swift in Sources */,
-				C642EE942C661E6B008B70DD /* LdDBundle.swift in Sources */,
-				C642EE962C661E6B008B70DD /* LdDLiveActivity.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C67305812C1175B50002B93B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,14 +390,15 @@
 				C608C79C2C21272100DF7C0B /* OrderCell.swift in Sources */,
 				C6A2BE482C23D08D00786CFC /* ViewController.swift in Sources */,
 				C44649D52C202E0700256E21 /* MyFirstModel.swift in Sources */,
+				C65DECCA2CD86D1000E214EB /* BinaryTree.swift in Sources */,
 				C608C7A02C217BCC00DF7C0B /* ToolViewController.swift in Sources */,
 				C6D2C7E02C4F828A008EE01A /* CeShiViewModel.swift in Sources */,
 				C6D2C7E22C4F82BE008EE01A /* CeShiSectionItem.swift in Sources */,
 				C44649D32C20290900256E21 /* MyFirstCell.swift in Sources */,
 				C6D2C7E82C4F836F008EE01A /* CeShiButtonModel.swift in Sources */,
+				C6C57AD22CD238860090EE57 /* animationController.swift in Sources */,
 				C6D2C7E62C4F833F008EE01A /* CeShiCell.swift in Sources */,
 				C6798BF72C1987E70089FB0F /* UpdatePasswordViewController.swift in Sources */,
-				C642EEA32C661F30008B70DD /* LdDLiveActivity.swift in Sources */,
 				C6B435542C18434200853D1B /* AppDelegate.swift in Sources */,
 				C6D2C7E42C4F82FD008EE01A /* CeShiCellModel.swift in Sources */,
 				C67305C72C119BAA0002B93B /* ThirdViewController.swift in Sources */,
@@ -504,11 +426,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C642EE9D2C661E6C008B70DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C642EE8C2C661E6A008B70DD /* LdDExtension */;
-			targetProxy = C642EE9C2C661E6C008B70DD /* PBXContainerItemProxy */;
-		};
 		C673059D2C1175B60002B93B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C67305842C1175B50002B93B /* dome_one */;
@@ -522,60 +439,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C642EEA02C661E6C008B70DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8D9G53V5AY;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LdD/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = LdD;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.chengchengyang.dome-one.LdD";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C642EEA12C661E6C008B70DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 86ZRJWW86U;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LdD/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = LdD;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.chengchengyang.dome-one.LdD";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		C67305AD2C1175B60002B93B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -699,7 +562,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B7FFA1C502ED53BBD009A76 /* Pods-dome_one.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -730,7 +592,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6686155D1A02A5C5ECFD1BBC /* Pods-dome_one.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -836,15 +697,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C642EEA22C661E6C008B70DD /* Build configuration list for PBXNativeTarget "LdDExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C642EEA02C661E6C008B70DD /* Debug */,
-				C642EEA12C661E6C008B70DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C67305802C1175B40002B93B /* Build configuration list for PBXProject "dome_one" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
