@@ -104,6 +104,8 @@ class FirstViewController:
     
     var tableView: UITableView!
     
+    let example = BinaryTree()
+    
 //    weak var dataDelegate: CellDataDelegate?
     
     override func viewDidLoad() {
