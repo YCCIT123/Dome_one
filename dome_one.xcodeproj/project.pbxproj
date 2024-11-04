@@ -13,6 +13,7 @@
 		C608C79C2C21272100DF7C0B /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79B2C21272100DF7C0B /* OrderCell.swift */; };
 		C608C79E2C2153ED00DF7C0B /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79D2C2153ED00DF7C0B /* OrderModel.swift */; };
 		C608C7A02C217BCC00DF7C0B /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */; };
+		C65DECCA2CD86D1000E214EB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65DECC92CD86D1000E214EB /* BinaryTree.swift */; };
 		C67305922C1175B60002B93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67305912C1175B60002B93B /* Assets.xcassets */; };
 		C67305C32C119AB40002B93B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67305C22C119AB40002B93B /* FirstViewController.swift */; };
 		C67305C52C119B8E0002B93B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67305C42C119B8E0002B93B /* SecondViewController.swift */; };
@@ -73,6 +74,7 @@
 		C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
 		C642EE8E2C661E6A008B70DD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		C642EE902C661E6B008B70DD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C65DECC92CD86D1000E214EB /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		C67305852C1175B50002B93B /* dome_one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dome_one.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67305912C1175B60002B93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C67305962C1175B60002B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				C44649D42C202E0700256E21 /* MyFirstModel.swift */,
 				C44649D22C20290900256E21 /* MyFirstCell.swift */,
 				C6C57AD12CD238860090EE57 /* animationController.swift */,
+				C65DECC92CD86D1000E214EB /* BinaryTree.swift */,
 				C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */,
 				C691E6152C22D5EF00BA4C1F /* StringTool.swift */,
 			);
@@ -387,6 +390,7 @@
 				C608C79C2C21272100DF7C0B /* OrderCell.swift in Sources */,
 				C6A2BE482C23D08D00786CFC /* ViewController.swift in Sources */,
 				C44649D52C202E0700256E21 /* MyFirstModel.swift in Sources */,
+				C65DECCA2CD86D1000E214EB /* BinaryTree.swift in Sources */,
 				C608C7A02C217BCC00DF7C0B /* ToolViewController.swift in Sources */,
 				C6D2C7E02C4F828A008EE01A /* CeShiViewModel.swift in Sources */,
 				C6D2C7E22C4F82BE008EE01A /* CeShiSectionItem.swift in Sources */,
