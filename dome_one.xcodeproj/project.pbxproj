@@ -143,6 +143,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C65DECCD2CD8C5F300E214EB /* algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				C65DECC92CD86D1000E214EB /* BinaryTree.swift */,
+			);
+			path = algorithm;
+			sourceTree = "<group>";
+		};
 		C673057C2C1175B40002B93B = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +185,7 @@
 		C67305BF2C1196870002B93B /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				C65DECCD2CD8C5F300E214EB /* algorithm */,
 				C6D2C7C42C4E3D2D008EE01A /* NextGroup */,
 				C67305C22C119AB40002B93B /* FirstViewController.swift */,
 				C6A2BE472C23D08D00786CFC /* ViewController.swift */,
@@ -190,7 +199,6 @@
 				C44649D42C202E0700256E21 /* MyFirstModel.swift */,
 				C44649D22C20290900256E21 /* MyFirstCell.swift */,
 				C6C57AD12CD238860090EE57 /* animationController.swift */,
-				C65DECC92CD86D1000E214EB /* BinaryTree.swift */,
 				C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */,
 				C691E6152C22D5EF00BA4C1F /* StringTool.swift */,
 			);
