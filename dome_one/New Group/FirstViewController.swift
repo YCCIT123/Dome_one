@@ -106,6 +106,8 @@ class FirstViewController:
     
     let example = BinaryTree()
     
+    let example1 = LinkedList()
+    
 //    weak var dataDelegate: CellDataDelegate?
     
     override func viewDidLoad() {
