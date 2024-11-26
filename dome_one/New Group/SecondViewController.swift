@@ -26,6 +26,7 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
     
     let updateButton = UIButton(type: .system)
     let settingButton = UIButton(type: .system)
+    let tryButton = UIButton(type: .system)
     
     override func viewDidLoad() {
         
@@ -60,10 +61,19 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
         settingButton.layer.cornerRadius = 10
         settingButton.addTarget(self, action: #selector(goToSettingPage), for: .touchUpInside)
         
+        tryButton.setTitle("try", for: .normal)
+        tryButton.backgroundColor = .blue
+        tryButton.tintColor = .white
+        tryButton.layer.masksToBounds = true
+        tryButton.layer.cornerRadius = 10
+        tryButton.addTarget(self, action: #selector(goToTryLearnPage), for: .touchUpInside)
+        
+        tryButton.frame = .init(x: 50, y: 400, width: UIScreen.main.bounds.width - 100, height: 50)
         
         mainView.addSubview(stackView)
         mainView.addSubview(updateButton)
         mainView.addSubview(settingButton)
+        mainView.addSubview(tryButton)
         view.addSubview(mainView)
         
         mainView.translatesAutoresizingMaskIntoConstraints = false
@@ -96,6 +106,12 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
        
     }
     
+    @objc func goToTryLearnPage() {
+        let vc = TryLearnViewController()
+        vc.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(vc, animated: false)
+    }
+    
     @objc func goToUpadtePage(){
         let updatePasswordViewController = UpdatePasswordViewController()
         updatePasswordViewController.hidesBottomBarWhenPushed = true
@@ -124,7 +140,6 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
     //视图将要出现调用
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("4")
     }
     
 }

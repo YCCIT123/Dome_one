@@ -12,3 +12,6 @@ class frequentlyUseBasics: NSObject {
         super.init()
     }
 }
+extension frequentlyUseBasics {
+    
+}

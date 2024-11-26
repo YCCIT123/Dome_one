@@ -104,9 +104,9 @@ class FirstViewController:
     
     var tableView: UITableView!
     
-    let example = BinaryTree()
-    
-    let example1 = LinkedList()
+//    let example = BinaryTree()
+//    
+//    let example1 = LinkedList()
     
 //    weak var dataDelegate: CellDataDelegate?
     
