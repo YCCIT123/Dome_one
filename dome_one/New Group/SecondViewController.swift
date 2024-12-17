@@ -54,14 +54,14 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
         updateButton.layer.cornerRadius = 10
         updateButton.addTarget(self, action: #selector(goToUpadtePage), for: .touchUpInside)
 
-        settingButton.setTitle("设置", for: .normal)
+        settingButton.setTitle("动画", for: .normal)
         settingButton.backgroundColor = .blue
         settingButton.tintColor = .white
         settingButton.layer.masksToBounds = true
         settingButton.layer.cornerRadius = 10
         settingButton.addTarget(self, action: #selector(goToSettingPage), for: .touchUpInside)
         
-        tryButton.setTitle("try", for: .normal)
+        tryButton.setTitle("手势及一些操作", for: .normal)
         tryButton.backgroundColor = .blue
         tryButton.tintColor = .white
         tryButton.layer.masksToBounds = true
@@ -108,6 +108,7 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
     
     @objc func goToTryLearnPage() {
         let vc = TryLearnViewController()
+        // 是否隐藏底部的导航栏
         vc.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(vc, animated: false)
     }

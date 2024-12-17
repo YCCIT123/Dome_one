@@ -42,10 +42,10 @@ class UIViewAction: UIView {
     
     // 来决定最优响应UIView 只能在UIView中使用
     // 一定要在父视图中使用 下面的调用会有问题
-    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
-        super.hitTest(point, with: event)
-        return self
-    }
+//    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
+//        super.hitTest(point, with: event)
+//        return self
+//    }
     
     // 判断触摸点是否在自己身上
     override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
@@ -54,3 +54,9 @@ class UIViewAction: UIView {
     }
     
 }
+
+class UIViewNextAction: UIView {
+    
+}
+
+

@@ -132,7 +132,38 @@ class FirstViewController:
             make.left.right.equalToSuperview()  // 左右边界与父视图对齐
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)  // 底部约束与安全区域底部对齐
         }
-        
+        self.barrier()
+        self.tryGCD()
     }
     
+   
+}
+// MARK: - GCD
+
+extension FirstViewController {
+    /** 测试*/
+    private func tryGCD() {
+        
+    }
+
+    
+    
+    /** 栅栏函数*/
+    private func barrier() {
+        // 单开一线程
+        let queue = DispatchQueue(label: "com.example.queue", attributes: .concurrent)
+        // 前面的并发任务
+        queue.async {
+            print("任务 A")
+        }
+        // 栅栏任务
+        queue.async(flags: .barrier) {
+            print("栅栏任务：检查产品质量")
+            sleep(10)  // 模拟耗时操作
+        }
+        // 后续任务
+        queue.async {
+            print("任务 B")
+        }
+    }
 }

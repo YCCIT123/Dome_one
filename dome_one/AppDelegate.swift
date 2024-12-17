@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let firstViewController = UINavigationController(rootViewController: FirstViewController())
+        let firstViewController = UINavigationController(rootViewController: WaterfallViewController())
         let secondViewController = UINavigationController(rootViewController: SecondViewController())
         let thirdViewController = UINavigationController(rootViewController: ThirdViewController())
         let fourViewController = UINavigationController(rootViewController: FourViewController())

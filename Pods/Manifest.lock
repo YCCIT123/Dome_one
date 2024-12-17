@@ -2,23 +2,29 @@ PODS:
   - IGListDiffKit (5.0.0)
   - IGListKit (5.0.0):
     - IGListDiffKit (= 5.0.0)
+  - LookinServer/Core (1.2.8)
+  - LookinServer/Swift (1.2.8):
+    - LookinServer/Core
   - SnapKit (5.7.1)
 
 DEPENDENCIES:
   - IGListKit (~> 5.0.0)
+  - LookinServer/Swift
   - SnapKit (~> 5.7.0)
 
 SPEC REPOS:
   trunk:
     - IGListDiffKit
     - IGListKit
+    - LookinServer
     - SnapKit
 
 SPEC CHECKSUMS:
   IGListDiffKit: 02d937d7e714d6f558771f284ed80668d483b522
   IGListKit: baf7e87b4c2262cd569c380e46ca5667a4a82c82
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: a6456ed37916990dbffe65994eff1f3841eea9c7
+PODFILE CHECKSUM: 4ebf275099a97c94395e56c65a0f67d9b70a45fd
 
 COCOAPODS: 1.15.2

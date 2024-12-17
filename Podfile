@@ -7,5 +7,7 @@ target 'dome_one' do
   pod 'SnapKit', '~> 5.7.0'
   
   pod 'IGListKit', '~> 5.0.0'
-
+  
+  pod 'LookinServer', :subspecs => ['Swift'], :configurations => ['Debug']
+  
 end
