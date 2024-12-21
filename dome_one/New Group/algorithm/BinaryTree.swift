@@ -28,6 +28,7 @@ class binaryTree <T: Comparable> {
     func addTree (value: T) {
         root == nil ? root = NoteTree(value: value) :addTreeHelp(root,value)
     }
+    // 其实就是一个递归寻找  适合自己且为空的地方
     private func addTreeHelp (_ node: NoteTree<T>?,_ value: T) {
         guard let node = node else { return }
         if value < node.value {

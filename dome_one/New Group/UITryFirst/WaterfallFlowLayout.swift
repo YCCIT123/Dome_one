@@ -5,7 +5,7 @@
 //  Created by yangchengcheng on 2024/12/17.
 //
 import UIKit
-impor
+import SnapKit
 
 // 自定义瀑布流布局
 class WaterfallFlowLayout: UICollectionViewLayout {
@@ -137,12 +137,13 @@ class WaterfallCell: UICollectionViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(label)
         
-        NSLayoutConstraint.activate([
-            label.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
-            label.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-            label.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.8),
-            label.heightAnchor.constraint(equalToConstant: 20)
-        ])
+        label.snp.makeConstraints { make in
+            make.centerX.equalTo(contentView)
+            make.centerY.equalTo(contentView)
+            make.width.equalTo(contentView).multipliedBy(0.8)
+            make.height.equalTo(20)
+        }
+
     }
     
     required init?(coder: NSCoder) {
