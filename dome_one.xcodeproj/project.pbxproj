@@ -16,6 +16,7 @@
 		C61A3C272D111BC300B413FB /* WaterfallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61A3C262D111BC300B413FB /* WaterfallFlowLayout.swift */; };
 		C61E85DC2CD9BFD600189E47 /* frequentlyUseBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E85DB2CD9BFD600189E47 /* frequentlyUseBasics.swift */; };
 		C62C97E72CE4A87E005DBB3B /* labelTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C97E62CE4A87E005DBB3B /* labelTool.swift */; };
+		C65589A22DF2F1C40051A5AC /* VerticalScrollTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65589A12DF2F1C40051A5AC /* VerticalScrollTextView.swift */; };
 		C65DECCA2CD86D1000E214EB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65DECC92CD86D1000E214EB /* BinaryTree.swift */; };
 		C65DECCF2CD8C79600E214EB /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65DECCE2CD8C79600E214EB /* LinkedList.swift */; };
 		C67305922C1175B60002B93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67305912C1175B60002B93B /* Assets.xcassets */; };
@@ -38,6 +39,9 @@
 		C6D2C7E42C4F82FD008EE01A /* CeShiCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7E32C4F82FD008EE01A /* CeShiCellModel.swift */; };
 		C6D2C7E62C4F833F008EE01A /* CeShiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7E52C4F833F008EE01A /* CeShiCell.swift */; };
 		C6D2C7E82C4F836F008EE01A /* CeShiButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2C7E72C4F836F008EE01A /* CeShiButtonModel.swift */; };
+		C6E6035E2D2E5AE5003B6E35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6E6035C2D2E5AE5003B6E35 /* InfoPlist.strings */; };
+		C6E603622D2E5CEC003B6E35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6E603602D2E5CEC003B6E35 /* Localizable.strings */; };
+		C6FD13722DA378AF0042F709 /* NetMangat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FD13712DA378AE0042F709 /* NetMangat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +88,7 @@
 		C62C97E62CE4A87E005DBB3B /* labelTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labelTool.swift; sourceTree = "<group>"; };
 		C642EE8E2C661E6A008B70DD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		C642EE902C661E6B008B70DD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C65589A12DF2F1C40051A5AC /* VerticalScrollTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollTextView.swift; sourceTree = "<group>"; };
 		C65DECC92CD86D1000E214EB /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		C65DECCE2CD8C79600E214EB /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		C67305852C1175B50002B93B /* dome_one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dome_one.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +115,13 @@
 		C6D2C7E32C4F82FD008EE01A /* CeShiCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiCellModel.swift; sourceTree = "<group>"; };
 		C6D2C7E52C4F833F008EE01A /* CeShiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiCell.swift; sourceTree = "<group>"; };
 		C6D2C7E72C4F836F008EE01A /* CeShiButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeShiButtonModel.swift; sourceTree = "<group>"; };
+		C6E6035D2D2E5AE5003B6E35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6E6035F2D2E5AEC003B6E35 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C6E603612D2E5CEC003B6E35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6E603632D2E5CEF003B6E35 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C6FD136A2DA362EE0042F709 /* dome_one.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dome_one.entitlements; sourceTree = "<group>"; };
+		C6FD13712DA378AE0042F709 /* NetMangat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetMangat.swift; sourceTree = "<group>"; };
+		C6FD13942DA3CA7A0042F709 /* dome_one-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dome_one-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				C62C97E62CE4A87E005DBB3B /* labelTool.swift */,
+				C65589A12DF2F1C40051A5AC /* VerticalScrollTextView.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -215,10 +228,13 @@
 		C67305872C1175B50002B93B /* dome_one */ = {
 			isa = PBXGroup;
 			children = (
+				C6FD136A2DA362EE0042F709 /* dome_one.entitlements */,
 				C6B435532C18434200853D1B /* AppDelegate.swift */,
 				C67305BF2C1196870002B93B /* New Group */,
 				C67305912C1175B60002B93B /* Assets.xcassets */,
 				C67305962C1175B60002B93B /* Info.plist */,
+				C6E6035C2D2E5AE5003B6E35 /* InfoPlist.strings */,
+				C6E603602D2E5CEC003B6E35 /* Localizable.strings */,
 			);
 			path = dome_one;
 			sourceTree = "<group>";
@@ -245,6 +261,8 @@
 				C44649D22C20290900256E21 /* MyFirstCell.swift */,
 				C608C79F2C217BCC00DF7C0B /* ToolViewController.swift */,
 				C691E6152C22D5EF00BA4C1F /* StringTool.swift */,
+				C6FD13712DA378AE0042F709 /* NetMangat.swift */,
+				C6FD13942DA3CA7A0042F709 /* dome_one-Bridging-Header.h */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -342,6 +360,7 @@
 				TargetAttributes = {
 					C67305842C1175B50002B93B = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 					C673059A2C1175B60002B93B = {
 						CreatedOnToolsVersion = 15.3;
@@ -359,6 +378,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hant",
 				Base,
 			);
 			mainGroup = C673057C2C1175B40002B93B;
@@ -379,6 +399,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C67305922C1175B60002B93B /* Assets.xcassets in Resources */,
+				C6E603622D2E5CEC003B6E35 /* Localizable.strings in Resources */,
+				C6E6035E2D2E5AE5003B6E35 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +488,7 @@
 				C6C57AD22CD238860090EE57 /* animationController.swift in Sources */,
 				C6D2C7E62C4F833F008EE01A /* CeShiCell.swift in Sources */,
 				C6798BF72C1987E70089FB0F /* UpdatePasswordViewController.swift in Sources */,
+				C65589A22DF2F1C40051A5AC /* VerticalScrollTextView.swift in Sources */,
 				C6B435542C18434200853D1B /* AppDelegate.swift in Sources */,
 				C6D2C7E42C4F82FD008EE01A /* CeShiCellModel.swift in Sources */,
 				C67305C72C119BAA0002B93B /* ThirdViewController.swift in Sources */,
@@ -474,6 +497,7 @@
 				C6D2C7DE2C4F8262008EE01A /* CeShiView.swift in Sources */,
 				C67305C32C119AB40002B93B /* FirstViewController.swift in Sources */,
 				C68DC2202CF5A4C200956312 /* TryLearnViewController.swift in Sources */,
+				C6FD13722DA378AF0042F709 /* NetMangat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +529,27 @@
 			targetProxy = C67305A62C1175B60002B93B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6E6035C2D2E5AE5003B6E35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6E6035D2D2E5AE5003B6E35 /* en */,
+				C6E6035F2D2E5AEC003B6E35 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6E603602D2E5CEC003B6E35 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6E603612D2E5CEC003B6E35 /* en */,
+				C6E603632D2E5CEF003B6E35 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C67305AD2C1175B60002B93B /* Debug */ = {
@@ -632,12 +677,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = dome_one/dome_one.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 86ZRJWW86U;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dome_one/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要获取WiFi信息";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -648,9 +697,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.chengchengyang.dome-one1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adways.NetworkFlowq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "dome_one/New Group/dome_one-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -662,12 +713,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = dome_one/dome_one.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 86ZRJWW86U;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dome_one/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要获取WiFi信息";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -678,9 +733,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.chengchengyang.dome-one";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adways.NetworkFlowq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "dome_one/New Group/dome_one-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

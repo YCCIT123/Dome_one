@@ -114,10 +114,13 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
     }
     
     @objc func goToUpadtePage(){
-        let updatePasswordViewController = UpdatePasswordViewController()
-        updatePasswordViewController.hidesBottomBarWhenPushed = true
-        updatePasswordViewController.delegate = self
-        navigationController?.pushViewController(updatePasswordViewController, animated: false)
+//        let ma = NetMangat()
+//        ma.fetchNetworkInfo()
+//        ma.fetchNetworkLocation()
+//        let updatePasswordViewController = UpdatePasswordViewController()
+//        updatePasswordViewController.hidesBottomBarWhenPushed = true
+//        updatePasswordViewController.delegate = self
+//        navigationController?.pushViewController(updatePasswordViewController, animated: false)
     }
     
     @objc func goToSettingPage(){
@@ -126,14 +129,14 @@ class SecondViewController: UIViewController, UpdatePasswordDelegate{
 //        navigationController?.pushViewController(settingViewController, animated: false)
         
         
-//        let toolViewController = ToolViewController()
-//        toolViewController.hidesBottomBarWhenPushed = true
-//        navigationController?.pushViewController(toolViewController, animated: false)
+        let toolViewController = ToolViewController()
+        toolViewController.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(toolViewController, animated: false)
     
-        let animationController = animationController()
-        animationController.hidesBottomBarWhenPushed = true
-        navigationController?.pushViewController(animationController, animated: false)
-        
+//        let animationController = animationController()
+//        animationController.hidesBottomBarWhenPushed = true
+//        navigationController?.pushViewController(animationController, animated: false)
+//        
 //        let viewController = ViewController()
 //        navigationController?.pushViewController(viewController, animated: false)
     }
