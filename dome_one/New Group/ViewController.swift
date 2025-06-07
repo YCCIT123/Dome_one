@@ -2,6 +2,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     private var numberScrollView: VerticalNumberScrollView!
+    private var number1ScrollView: VerticalNumberScrollView!
     private var inputA: UITextField!
     private var inputB: UITextField!
     private var startButton: UIButton!
@@ -13,6 +14,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // 初始展示A
         let aValue = Double(inputA?.text ?? "") ?? 0
         numberScrollView.setInitialValue(aValue, format: inputA?.text)
+        number1ScrollView.setInitialValue(aValue, format: inputA?.text)
     }
     
     private func setupUI() {
@@ -46,8 +48,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
         numberScrollView.textFont = .boldSystemFont(ofSize: 36)
         numberScrollView.textColor = .systemBlue
         numberScrollView.textAlignment = .center
+        numberScrollView.scrollDirection = .up
         numberScrollView.scrollAnimationTime = 0.05
+        
+        number1ScrollView = VerticalNumberScrollView(frame: CGRect(x: 40, y: 300, width: 360, height: 60))
+        number1ScrollView.textFont = .boldSystemFont(ofSize: 36)
+        number1ScrollView.textColor = .systemBlue
+        number1ScrollView.textAlignment = .center
+        number1ScrollView.scrollDirection = .down
+        number1ScrollView.scrollAnimationTime = 0.05
+        
         view.addSubview(numberScrollView)
+        view.addSubview(number1ScrollView)
     }
     
     @objc private func startButtonTapped() {
@@ -60,6 +72,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             return
         }
         numberScrollView.startScroll(to: bValue, format: inputB.text)
+        number1ScrollView.startScroll(to: bValue, format: inputB.text)
     }
     
     // 只允许输入数字和小数点
