@@ -165,6 +165,16 @@ class VerticalScrollTextView: UIView {
             }
         })
     }
+    
+    /// 强制显示最后一项内容
+    func showFinalState() {
+        guard textDataArr.count > 0 else { return }
+        for (i, label) in labels.enumerated() {
+            label.frame = CGRect(x: 0, y: CGFloat(i - 1) * bounds.height, width: bounds.width, height: bounds.height)
+            label.attributedText = textDataArr.last
+        }
+        index = textDataArr.count - 1
+    }
 }
 
 // MARK: 调用方法

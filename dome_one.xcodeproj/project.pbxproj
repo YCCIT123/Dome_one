@@ -42,6 +42,7 @@
 		C6E6035E2D2E5AE5003B6E35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6E6035C2D2E5AE5003B6E35 /* InfoPlist.strings */; };
 		C6E603622D2E5CEC003B6E35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6E603602D2E5CEC003B6E35 /* Localizable.strings */; };
 		C6FD13722DA378AF0042F709 /* NetMangat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FD13712DA378AE0042F709 /* NetMangat.swift */; };
+		EC9DCCBA2DF408AF00A1996F /* VerticalNumberScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DCCB92DF408AF00A1996F /* VerticalNumberScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		C6FD136A2DA362EE0042F709 /* dome_one.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dome_one.entitlements; sourceTree = "<group>"; };
 		C6FD13712DA378AE0042F709 /* NetMangat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetMangat.swift; sourceTree = "<group>"; };
 		C6FD13942DA3CA7A0042F709 /* dome_one-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dome_one-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC9DCCB92DF408AF00A1996F /* VerticalNumberScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalNumberScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			children = (
 				C62C97E62CE4A87E005DBB3B /* labelTool.swift */,
 				C65589A12DF2F1C40051A5AC /* VerticalScrollTextView.swift */,
+				EC9DCCB92DF408AF00A1996F /* VerticalNumberScrollView.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -429,9 +432,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-dome_one/Pods-dome_one-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-dome_one/Pods-dome_one-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -473,6 +480,7 @@
 				C68CF19B2CDC4BD6001F4F80 /* Sort.swift in Sources */,
 				C61A3C272D111BC300B413FB /* WaterfallFlowLayout.swift in Sources */,
 				C62C97E72CE4A87E005DBB3B /* labelTool.swift in Sources */,
+				EC9DCCBA2DF408AF00A1996F /* VerticalNumberScrollView.swift in Sources */,
 				C608C79C2C21272100DF7C0B /* OrderCell.swift in Sources */,
 				C6A2BE482C23D08D00786CFC /* ViewController.swift in Sources */,
 				C65DECCF2CD8C79600E214EB /* LinkedList.swift in Sources */,
